@@ -58,6 +58,7 @@ repositories {
     maven("https://jitpack.io")
     maven("https://repo.rosewooddev.io/repository/public/")
     maven("https://repo.oraxen.com/releases")
+    maven("https://repo.papermc.io/repository/maven-public/")
 }
 
 dependencies {
