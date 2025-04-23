@@ -42,6 +42,7 @@ class StructureGenerator(
             .map { it.key to it.value.jsonPrimitive.content }
             .toMap()
             .let { Object(it) }
+            println(elements ?: "elements is null")
     }
 
     fun create(): ElementGenerator {
